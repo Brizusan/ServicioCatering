@@ -43,6 +43,13 @@ body {
 }
 
 
+/* Aplicndo padding top al elemnto main */
+
+main {
+    padding-top: 80px;
+}
+
+
 /* Barra de Navegacion */
 
 #navigation {
