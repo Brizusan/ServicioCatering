@@ -1,0 +1,296 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+
+/* Estilos Generales */
+
+html,
+body {
+    height: 100%;
+}
+
+
+/* Modificar El modelo de cajas de CSS */
+
+html {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Piedra', cursive;
+    font-size: 1.09rem
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+
+/* Resetear Margenes y Padding */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+
+/* Barra de Navegacion */
+
+#navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main-nav {
+    display: flex;
+    list-style: none;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#main-nav li {
+    padding: 12px 0.30em;
+}
+
+#main-nav li a {
+    color: #0f0f0f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    padding-bottom: 12px;
+}
+
+#main-nav li a:hover {
+    border-bottom: 2px solid #ff0000
+}
+
+#main-nav+a {
+    color: #0f0f0f;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.95rem;
+    border: 1px solid #f00;
+    padding: 12px 3em;
+    transition: all 0.5s
+}
+
+#main-nav+a:hover {
+    background-color: #ff0000;
+    color: #fff;
+    transition: all 0.5s
+}
+
+nav {
+    padding: 12px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* Seccion */
+
+article>section:nth-child(1) {
+    background-image: linear-gradient(rgba(95, 24, 21, 0.5), rgba(41, 24, 21, 0.9)), url(../Recursos/images/buffet-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#primeraSeccion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    min-height: 600px;
+}
+
+#primeraSeccion h1 {
+    font-size: 4rem;
+    font-family: arial, tahoma, verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #ffff00;
+    text-shadow: 5px 3px 0 #000;
+}
+
+
+/* Seccion 2 */
+
+article>section:nth-child(2) {
+    margin: 60px 0;
+}
+
+
+/* Estilos de los textos */
+
+h2 {
+    font-size: 1.85rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.divider {
+    border-bottom: 2px solid #ff0000;
+    width: 115px;
+    margin: 20px auto;
+}
+
+#segundaSeccion {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 40px;
+}
+
+#segundaSeccion img {
+    flex-basis: 35%;
+    max-width: 35%;
+    align-self: flex-start;
+    height: 280px;
+}
+
+#segundaSeccion div {
+    flex-basis: 65%;
+    padding-left: 1.50em;
+}
+
+
+/* Seccion3 */
+
+#terceraSeccion {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2rem;
+    height: 360px;
+    align-items: center;
+    color: #fff
+}
+
+article>section:nth-child(3) {
+    background-image: linear-gradient(rgba(95, 36, 34, 0.5), rgba(41, 24, 21, 0.9)), url(../Recursos/images/food-table.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+
+/* Seccion 4 */
+
+article>section:nth-child(4) {
+    margin: 60px 0;
+}
+
+#cuartaSeccion {
+    display: flex;
+    margin-top: 40px;
+}
+
+#cuartaSeccion img {
+    width: 100%;
+}
+
+#cuartaSeccion div {
+    margin: 0 0.5em;
+    box-shadow: -2px 2px 2px #ccc, 2px 4px 1px #ccc;
+    padding-bottom: 15px;
+}
+
+#cuartaSeccion h3 {
+    text-align: center;
+    padding: 12px 0;
+    font-weight: 500;
+}
+
+
+/* Seccion 5 */
+
+article>section:nth-child(5) {
+    margin: 60px 0;
+    text-align: center;
+    background-color: #fcfcfc;
+    padding: 60px 0
+}
+
+#quintaSeccion {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.col {
+    width: 33%;
+    margin: 0 0.5em;
+}
+
+.col ul {
+    border: 1px solid #ddd;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.col ul li {
+    padding: 18px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.package-header {
+    font-size: 1.5rem;
+}
+
+.price {
+    background-color: #ececec;
+    font-size: 1.15rem;
+}
+
+.col ul li i {
+    color: #008000;
+}
+
+.col:hover {
+    box-shadow: 0 -5px 15px #dad8d8, 0 8px 15px #dad8d8;
+    transition: all 0.5s;
+}
+
+
+/* Seccion  6*/
+
+article>section:nth-child(6) {
+    margin: 60px 0;
+}
+
+#addressBox {
+    text-align: center;
+}
+
+#addressBox p {
+    margin-bottom: 12px;
+}
+
+#contactoform {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 60px 0 12px;
+}
