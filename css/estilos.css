@@ -318,6 +318,10 @@ label {
     margin: 15px 0;
 }
 
+#col-text {
+    padding: 0 0.5em;
+}
+
 .col-input input:focus,
 #col-text textarea:focus {
     border: 1px solid #3f3d3d;
@@ -325,7 +329,7 @@ label {
     transition: all 1s;
 }
 
-input [type="submit"] {
+input[type="submit"] {
     background-color: #008000;
     color: #fff;
     display: inline-block;
@@ -334,4 +338,32 @@ input [type="submit"] {
     font-size: 1rem;
     margin: 12px 0;
     border-radius: 8px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #1e1e1e;
+    padding: 30px 0 0;
+}
+
+#piePagina {
+    display: flex;
+    justify-content: center;
+}
+
+#piePagina a i {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 12px;
+}
+
+#copyrigth {
+    text-align: center;
+    color: #fff;
+    font-size: 1rem;
+    padding: 12px 0;
+    border-top: 1px solid #423d3d;
+    margin: 12px 0 0;
 }
