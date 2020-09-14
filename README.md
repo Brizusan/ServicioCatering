@@ -11,7 +11,7 @@ HTML CSS JS
 3. Servicios
 4. Paquetes
 5. Contacto
-6.Ubicanos
+6. Ubicanos
 
 
 >ULTIMAR DETALLES EN SECCION 
